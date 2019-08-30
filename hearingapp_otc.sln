@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hearingapp_otc.Android", "hearingapp_otc\hearingapp_otc.Android\hearingapp_otc.Android.csproj", "{CA3D05D8-D696-4C24-BF8D-026BF72EEAA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hearingapp_otc.iOS", "hearingapp_otc\hearingapp_otc.iOS\hearingapp_otc.iOS.csproj", "{F7E273AA-6231-4B26-B3F2-6C8594919E25}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "hearingapp_otc", "hearingapp_otc\hearingapp_otc\hearingapp_otc.shproj", "{D584B5B2-41E0-43A7-9ED7-77267212A711}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		hearingapp_otc\hearingapp_otc\hearingapp_otc.projitems*{ca3d05d8-d696-4c24-bf8d-026bf72eeaa1}*SharedItemsImports = 4
+		hearingapp_otc\hearingapp_otc\hearingapp_otc.projitems*{d584b5b2-41e0-43a7-9ed7-77267212a711}*SharedItemsImports = 13
+		hearingapp_otc\hearingapp_otc\hearingapp_otc.projitems*{f7e273aa-6231-4b26-b3f2-6c8594919e25}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|Any CPU = Release|Any CPU
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA3D05D8-D696-4C24-BF8D-026BF72EEAA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3D05D8-D696-4C24-BF8D-026BF72EEAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3D05D8-D696-4C24-BF8D-026BF72EEAA1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CA3D05D8-D696-4C24-BF8D-026BF72EEAA1}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{CA3D05D8-D696-4C24-BF8D-026BF72EEAA1}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{CA3D05D8-D696-4C24-BF8D-026BF72EEAA1}.Debug|iPhone.Deploy.0 = Debug|Any CPU
+		{CA3D05D8-D696-4C24-BF8D-026BF72EEAA1}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{CA3D05D8-D696-4C24-BF8D-026BF72EEAA1}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{CA3D05D8-D696-4C24-BF8D-026BF72EEAA1}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
+		{CA3D05D8-D696-4C24-BF8D-026BF72EEAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3D05D8-D696-4C24-BF8D-026BF72EEAA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA3D05D8-D696-4C24-BF8D-026BF72EEAA1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CA3D05D8-D696-4C24-BF8D-026BF72EEAA1}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{CA3D05D8-D696-4C24-BF8D-026BF72EEAA1}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{CA3D05D8-D696-4C24-BF8D-026BF72EEAA1}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{CA3D05D8-D696-4C24-BF8D-026BF72EEAA1}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{F7E273AA-6231-4B26-B3F2-6C8594919E25}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{F7E273AA-6231-4B26-B3F2-6C8594919E25}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{F7E273AA-6231-4B26-B3F2-6C8594919E25}.Debug|iPhone.Build.0 = Debug|iPhone
+		{F7E273AA-6231-4B26-B3F2-6C8594919E25}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{F7E273AA-6231-4B26-B3F2-6C8594919E25}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{F7E273AA-6231-4B26-B3F2-6C8594919E25}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{F7E273AA-6231-4B26-B3F2-6C8594919E25}.Release|iPhone.ActiveCfg = Release|iPhone
+		{F7E273AA-6231-4B26-B3F2-6C8594919E25}.Release|iPhone.Build.0 = Release|iPhone
+		{F7E273AA-6231-4B26-B3F2-6C8594919E25}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{F7E273AA-6231-4B26-B3F2-6C8594919E25}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F1225C4-2F11-45A1-A85D-C248D20C8BAB}
+	EndGlobalSection
+EndGlobal

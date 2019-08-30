@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{D584B5B2-41E0-43A7-9ED7-77267212A711}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>hearingapp_otc</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AWSHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DatabaseHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PaymentModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Session.cs" />
+  </ItemGroup>
+</Project>
